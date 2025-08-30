@@ -1,0 +1,4 @@
+El sistema de trámites ambientales permite a los usuarios registrar, consultar y hacer seguimiento a sus solicitudes. 
+Cada trámite debe incluir la información básica del solicitante, el tipo de solicitud y los documentos requeridos. 
+Los usuarios pueden ingresar al sistema con su número de identificación y una contraseña personal. 
+En caso de olvidar la contraseña, el sistema ofrece la opción de recuperación a través del correo electrónico registrado.

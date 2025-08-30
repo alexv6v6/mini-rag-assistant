@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Chroma DB local
+chroma_db/
+chroma/
+
+# Variables de entorno
+.env
+
+# Archivos temporales de sistemas
+*.log
+.DS_Store

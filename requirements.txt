@@ -1,0 +1,5 @@
+streamlit
+pypdf
+langchain
+chromadb
+sentence-transformers
