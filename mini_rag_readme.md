@@ -1,6 +1,26 @@
 # MiniRAG Assistant
 
-Este proyecto permite hacer RAG (Retrieval-Augmented Generation) usando Chroma en Docker, embeddings de HuggingFace y consultas a un LLM de OpenAI.
+# Mini-RAG Assistant (Proyecto de Aprendizaje)
+
+⚠️ **Este proyecto es con fines de práctica personal.**
+
+## Objetivo
+Crear un asistente RAG (Retrieval-Augmented Generation) usando Streamlit, LangChain y Chroma, para consultar documentos indexados con LLM.
+
+## Tecnologías usadas
+- Python 3.11
+- Streamlit
+- LangChain
+- Chroma (Vector DB)
+- OpenAI / HuggingFace Embeddings
+- Docker
+
+## Cómo usar
+1. Instalar dependencias: `pip install -r requirements.txt`
+2. Levantar Chroma en Docker: `docker compose up -d`
+3. Colocar documentos en la carpeta `docs/`
+4. Indexar documentos: `python indexer.py`
+5. Ejecutar la app: `streamlit run app.py`
 
 **IMPORTANTE:** Antes de ejecutar el proyecto, asegúrate de tener **Docker Desktop instalado y abierto**, y que el servicio de Chroma esté corriendo (`docker compose up -d`).
 
